@@ -9,7 +9,7 @@ import { composeWithDevTools } from 'redux-devtools-extension'
 
 import App from './App'
 import registerServiceWorker from './registerServiceWorker'
-import rootReducer from './rootReducer'
+import rootReducer from './store/rootReducer'
 
 const store = createStore(
   rootReducer,
